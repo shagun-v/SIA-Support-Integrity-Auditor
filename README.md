@@ -7,6 +7,11 @@ SIA detects **Priority Mismatch** in customer support tickets — cases where th
 human-assigned priority conflicts with the ticket's inferred objective severity.
 It bootstraps its own supervision signal from raw ticket data (no mismatch labels needed).
 
+## Live Demo
+
+Streamlit App:
+https://sia-support-integrity-auditor-6fh7qsta3awbbynbahnxvu.streamlit.app/
+
 ## Pretrained DeBERTa Model
 
 The fine-tuned DeBERTa model is hosted on Google Drive due to GitHub file size limitations.
