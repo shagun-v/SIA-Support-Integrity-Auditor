@@ -1,0 +1,35 @@
+{
+  "model_version": "SIA-v1.0",
+  "saved_at": "2026-06-15T14:26:33.293104",
+  "device_used": "cuda",
+  "weights": {
+    "nlp": 0.3,
+    "resolution": 0.25,
+    "embedding": 0.2,
+    "zeroshot": 0.25
+  },
+  "priority_order": [
+    "Low",
+    "Medium",
+    "High",
+    "Critical"
+  ],
+  "priority_ord_map": {
+    "Low": 0,
+    "Medium": 1,
+    "High": 2,
+    "Critical": 3
+  },
+  "struct_cols": [
+    "issue_cat_enc",
+    "ticket_chan_enc",
+    "Resolution_Time_Hours",
+    "Satisfaction_Score",
+    "nlp_severity_score",
+    "resolution_severity_score",
+    "embedding_severity_score",
+    "zeroshot_severity_score",
+    "final_severity_score"
+  ],
+  "seed": 42
+}
