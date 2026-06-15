@@ -7,6 +7,21 @@ SIA detects **Priority Mismatch** in customer support tickets — cases where th
 human-assigned priority conflicts with the ticket's inferred objective severity.
 It bootstraps its own supervision signal from raw ticket data (no mismatch labels needed).
 
+## Pretrained Models & Outputs
+
+Due to GitHub file size limitations, trained model artifacts and generated outputs are hosted on Google Drive.
+
+### Download Link
+https://drive.google.com/drive/folders/1au3rdQT0_NTP1a3i7K1siUj3SR7qcCgh?usp=sharing
+
+Contents:
+- model_artifacts/
+- mismatch_dossiers.json
+- adversarial_results.csv
+- evaluation_metrics.csv
+
+After downloading, place the folders/files in the project root directory before running the Streamlit app.
+
 ### Architecture
 See `ARCHITECTURE.md` or the Mermaid diagram in `notebook.ipynb`.
 
